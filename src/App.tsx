@@ -1,4 +1,5 @@
 // import { Todo } from "./components/Todo";
+import { ProjectComponent } from "./components/Projects";
 import { TodoMutationComponent } from "./components/TodoMutation";
 import { TodoList } from "./components/TodoQueries";
 
@@ -8,6 +9,7 @@ function App() {
       {/* <Todo /> */}
       <TodoMutationComponent />
       <TodoList />
+      <ProjectComponent />
     </>
   );
   // const [data, setData] = useState([]);
